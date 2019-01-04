@@ -1,13 +1,12 @@
 <?php
 
+session_start();
+
 $conn = mysqli_connect(
     'localhost',
     'root',
     '',
     'tasks'
 );
-
-if (isset($conn)) {
-}
 
 ?>
