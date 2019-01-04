@@ -46,8 +46,10 @@
                                 <td><?php echo $row['description'] ?></td>
                                 <td><?php echo $row['created'] ?></td>
                                 <td>
-                                    <a href="edit-task.php?id=<?php echo $row['id'] ?>">Edit</a>
-                                    <a href="delete-task.php?id=<?php echo $row['id'] ?>">Delete</a>
+                                    <a href="edit-task.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">
+                                    <i class="fas fa-marker"></i></a>
+                                    <a href="delete-task.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
+                                    <i class="fas fa-trash-alt"></i></a>
                                 </td>
                             </tr>
                             
